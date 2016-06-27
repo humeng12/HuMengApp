@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6957C65B1D211E0B00C415AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C65A1D211E0B00C415AA /* main.m */; };
+		6957C65E1D211E0B00C415AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C65D1D211E0B00C415AA /* AppDelegate.m */; };
+		6957C6611D211E0B00C415AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6601D211E0B00C415AA /* ViewController.m */; };
+		6957C6641D211E0B00C415AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6957C6621D211E0B00C415AA /* Main.storyboard */; };
+		6957C6661D211E0B00C415AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6957C6651D211E0B00C415AA /* Assets.xcassets */; };
+		6957C6691D211E0B00C415AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6957C6671D211E0B00C415AA /* LaunchScreen.storyboard */; };
+		6957C6741D211E0B00C415AA /* HuMeng_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6731D211E0B00C415AA /* HuMeng_DemoTests.m */; };
+		6957C67F1D211E0B00C415AA /* HuMeng_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C67E1D211E0B00C415AA /* HuMeng_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6957C6701D211E0B00C415AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6957C64E1D211E0B00C415AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6957C6551D211E0B00C415AA;
+			remoteInfo = HuMeng_Demo;
+		};
+		6957C67B1D211E0B00C415AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6957C64E1D211E0B00C415AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6957C6551D211E0B00C415AA;
+			remoteInfo = HuMeng_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6957C6561D211E0B00C415AA /* HuMeng_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuMeng_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6957C65A1D211E0B00C415AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6957C65C1D211E0B00C415AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6957C65D1D211E0B00C415AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6957C65F1D211E0B00C415AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6957C6601D211E0B00C415AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6957C6631D211E0B00C415AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6957C6651D211E0B00C415AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6957C6681D211E0B00C415AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6957C66A1D211E0B00C415AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6957C66F1D211E0B00C415AA /* HuMeng_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuMeng_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6957C6731D211E0B00C415AA /* HuMeng_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuMeng_DemoTests.m; sourceTree = "<group>"; };
+		6957C6751D211E0B00C415AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6957C67A1D211E0B00C415AA /* HuMeng_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuMeng_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6957C67E1D211E0B00C415AA /* HuMeng_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuMeng_DemoUITests.m; sourceTree = "<group>"; };
+		6957C6801D211E0B00C415AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6957C6531D211E0B00C415AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C66C1D211E0B00C415AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C6771D211E0B00C415AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6957C64D1D211E0B00C415AA = {
+			isa = PBXGroup;
+			children = (
+				6957C6581D211E0B00C415AA /* HuMeng_Demo */,
+				6957C6721D211E0B00C415AA /* HuMeng_DemoTests */,
+				6957C67D1D211E0B00C415AA /* HuMeng_DemoUITests */,
+				6957C6571D211E0B00C415AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6957C6571D211E0B00C415AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6957C6561D211E0B00C415AA /* HuMeng_Demo.app */,
+				6957C66F1D211E0B00C415AA /* HuMeng_DemoTests.xctest */,
+				6957C67A1D211E0B00C415AA /* HuMeng_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6957C6581D211E0B00C415AA /* HuMeng_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6957C65C1D211E0B00C415AA /* AppDelegate.h */,
+				6957C65D1D211E0B00C415AA /* AppDelegate.m */,
+				6957C65F1D211E0B00C415AA /* ViewController.h */,
+				6957C6601D211E0B00C415AA /* ViewController.m */,
+				6957C6621D211E0B00C415AA /* Main.storyboard */,
+				6957C6651D211E0B00C415AA /* Assets.xcassets */,
+				6957C6671D211E0B00C415AA /* LaunchScreen.storyboard */,
+				6957C66A1D211E0B00C415AA /* Info.plist */,
+				6957C6591D211E0B00C415AA /* Supporting Files */,
+			);
+			path = HuMeng_Demo;
+			sourceTree = "<group>";
+		};
+		6957C6591D211E0B00C415AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6957C65A1D211E0B00C415AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6957C6721D211E0B00C415AA /* HuMeng_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6957C6731D211E0B00C415AA /* HuMeng_DemoTests.m */,
+				6957C6751D211E0B00C415AA /* Info.plist */,
+			);
+			path = HuMeng_DemoTests;
+			sourceTree = "<group>";
+		};
+		6957C67D1D211E0B00C415AA /* HuMeng_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6957C67E1D211E0B00C415AA /* HuMeng_DemoUITests.m */,
+				6957C6801D211E0B00C415AA /* Info.plist */,
+			);
+			path = HuMeng_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6957C6551D211E0B00C415AA /* HuMeng_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6957C6831D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_Demo" */;
+			buildPhases = (
+				6957C6521D211E0B00C415AA /* Sources */,
+				6957C6531D211E0B00C415AA /* Frameworks */,
+				6957C6541D211E0B00C415AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuMeng_Demo;
+			productName = HuMeng_Demo;
+			productReference = 6957C6561D211E0B00C415AA /* HuMeng_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6957C66E1D211E0B00C415AA /* HuMeng_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6957C6861D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_DemoTests" */;
+			buildPhases = (
+				6957C66B1D211E0B00C415AA /* Sources */,
+				6957C66C1D211E0B00C415AA /* Frameworks */,
+				6957C66D1D211E0B00C415AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6957C6711D211E0B00C415AA /* PBXTargetDependency */,
+			);
+			name = HuMeng_DemoTests;
+			productName = HuMeng_DemoTests;
+			productReference = 6957C66F1D211E0B00C415AA /* HuMeng_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6957C6791D211E0B00C415AA /* HuMeng_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6957C6891D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_DemoUITests" */;
+			buildPhases = (
+				6957C6761D211E0B00C415AA /* Sources */,
+				6957C6771D211E0B00C415AA /* Frameworks */,
+				6957C6781D211E0B00C415AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6957C67C1D211E0B00C415AA /* PBXTargetDependency */,
+			);
+			name = HuMeng_DemoUITests;
+			productName = HuMeng_DemoUITests;
+			productReference = 6957C67A1D211E0B00C415AA /* HuMeng_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6957C64E1D211E0B00C415AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HRT;
+				TargetAttributes = {
+					6957C6551D211E0B00C415AA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6957C66E1D211E0B00C415AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6957C6551D211E0B00C415AA;
+					};
+					6957C6791D211E0B00C415AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6957C6551D211E0B00C415AA;
+					};
+				};
+			};
+			buildConfigurationList = 6957C6511D211E0B00C415AA /* Build configuration list for PBXProject "HuMeng_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6957C64D1D211E0B00C415AA;
+			productRefGroup = 6957C6571D211E0B00C415AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6957C6551D211E0B00C415AA /* HuMeng_Demo */,
+				6957C66E1D211E0B00C415AA /* HuMeng_DemoTests */,
+				6957C6791D211E0B00C415AA /* HuMeng_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6957C6541D211E0B00C415AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6957C6691D211E0B00C415AA /* LaunchScreen.storyboard in Resources */,
+				6957C6661D211E0B00C415AA /* Assets.xcassets in Resources */,
+				6957C6641D211E0B00C415AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C66D1D211E0B00C415AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C6781D211E0B00C415AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6957C6521D211E0B00C415AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6957C6611D211E0B00C415AA /* ViewController.m in Sources */,
+				6957C65E1D211E0B00C415AA /* AppDelegate.m in Sources */,
+				6957C65B1D211E0B00C415AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C66B1D211E0B00C415AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6957C6741D211E0B00C415AA /* HuMeng_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6957C6761D211E0B00C415AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6957C67F1D211E0B00C415AA /* HuMeng_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6957C6711D211E0B00C415AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6957C6551D211E0B00C415AA /* HuMeng_Demo */;
+			targetProxy = 6957C6701D211E0B00C415AA /* PBXContainerItemProxy */;
+		};
+		6957C67C1D211E0B00C415AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6957C6551D211E0B00C415AA /* HuMeng_Demo */;
+			targetProxy = 6957C67B1D211E0B00C415AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6957C6621D211E0B00C415AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6957C6631D211E0B00C415AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6957C6671D211E0B00C415AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6957C6681D211E0B00C415AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6957C6811D211E0B00C415AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6957C6821D211E0B00C415AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6957C6841D211E0B00C415AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuMeng_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6957C6851D211E0B00C415AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuMeng_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6957C6871D211E0B00C415AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuMeng_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuMeng_Demo.app/HuMeng_Demo";
+			};
+			name = Debug;
+		};
+		6957C6881D211E0B00C415AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuMeng_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuMeng_Demo.app/HuMeng_Demo";
+			};
+			name = Release;
+		};
+		6957C68A1D211E0B00C415AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuMeng_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuMeng_Demo;
+			};
+			name = Debug;
+		};
+		6957C68B1D211E0B00C415AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HuMeng_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRT.HuMeng-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuMeng_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6957C6511D211E0B00C415AA /* Build configuration list for PBXProject "HuMeng_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6957C6811D211E0B00C415AA /* Debug */,
+				6957C6821D211E0B00C415AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6957C6831D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6957C6841D211E0B00C415AA /* Debug */,
+				6957C6851D211E0B00C415AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6957C6861D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6957C6871D211E0B00C415AA /* Debug */,
+				6957C6881D211E0B00C415AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6957C6891D211E0B00C415AA /* Build configuration list for PBXNativeTarget "HuMeng_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6957C68A1D211E0B00C415AA /* Debug */,
+				6957C68B1D211E0B00C415AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6957C64E1D211E0B00C415AA /* Project object */;
+}

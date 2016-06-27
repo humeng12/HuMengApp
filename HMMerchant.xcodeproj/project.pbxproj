@@ -187,6 +187,8 @@
 		694E3D351CC4797300E60F7D /* CardsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D341CC4797300E60F7D /* CardsRootViewController.m */; };
 		6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6481D210BF300C415AA /* NSString+MD5String.m */; };
 		6957C64C1D2111E600C415AA /* XHNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C64B1D2111E600C415AA /* XHNetworkCache.m */; };
+		6957C6961D21335300C415AA /* MediaPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6951D21335300C415AA /* MediaPlayerMaskView.m */; };
+		6957C6991D2133EC00C415AA /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6981D2133EC00C415AA /* MediaPlayer.m */; };
 		697BE5441D06578700D35B3E /* GGMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5421D06578700D35B3E /* GGMovieCell.m */; };
 		697BE5451D06578700D35B3E /* GGMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697BE5431D06578700D35B3E /* GGMovieCell.xib */; };
 		697BE5481D0657F100D35B3E /* GGMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5471D0657F100D35B3E /* GGMovieModel.m */; };
@@ -651,6 +653,10 @@
 		6957C6481D210BF300C415AA /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
 		6957C64A1D2111E600C415AA /* XHNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetworkCache.h; sourceTree = "<group>"; };
 		6957C64B1D2111E600C415AA /* XHNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetworkCache.m; sourceTree = "<group>"; };
+		6957C6941D21335300C415AA /* MediaPlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayerMaskView.h; sourceTree = "<group>"; };
+		6957C6951D21335300C415AA /* MediaPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerMaskView.m; sourceTree = "<group>"; };
+		6957C6971D2133EC00C415AA /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		6957C6981D2133EC00C415AA /* MediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
 		697BE5411D06578700D35B3E /* GGMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMovieCell.h; sourceTree = "<group>"; };
 		697BE5421D06578700D35B3E /* GGMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMovieCell.m; sourceTree = "<group>"; };
 		697BE5431D06578700D35B3E /* GGMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGMovieCell.xib; sourceTree = "<group>"; };
@@ -1429,6 +1435,7 @@
 				694E3CA71CC4716100E60F7D /* Controllers */,
 				694E3CA81CC4717000E60F7D /* Views */,
 				694E3CA91CC4717E00E60F7D /* Models */,
+				6957C68C1D21309E00C415AA /* Others */,
 				694E3C701CC4707A00E60F7D /* AppDelegate.h */,
 				694E3C711CC4707A00E60F7D /* AppDelegate.m */,
 				694E3C731CC4707A00E60F7D /* ViewController.h */,
@@ -1786,6 +1793,25 @@
 				694E3D341CC4797300E60F7D /* CardsRootViewController.m */,
 			);
 			path = VCControlletr;
+			sourceTree = "<group>";
+		};
+		6957C68C1D21309E00C415AA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6957C68D1D2130A300C415AA /* 视频播放 */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6957C68D1D2130A300C415AA /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				6957C6971D2133EC00C415AA /* MediaPlayer.h */,
+				6957C6981D2133EC00C415AA /* MediaPlayer.m */,
+				6957C6941D21335300C415AA /* MediaPlayerMaskView.h */,
+				6957C6951D21335300C415AA /* MediaPlayerMaskView.m */,
+			);
+			path = "视频播放";
 			sourceTree = "<group>";
 		};
 		697BE53F1D06560C00D35B3E /* Model */ = {
@@ -2383,6 +2409,7 @@
 				698F068D1CDC424300B4D983 /* POPAnimationEvent.mm in Sources */,
 				697BE57D1D06584400D35B3E /* UIImageView+WebCache.m in Sources */,
 				698F06FD1CDC867C00B4D983 /* CAShapeLayerDemo01.m in Sources */,
+				6957C6991D2133EC00C415AA /* MediaPlayer.m in Sources */,
 				6946B5C61D08044C0039F15E /* MJRefreshBackNormalFooter.m in Sources */,
 				697BE5771D06584400D35B3E /* SDWebImagePrefetcher.m in Sources */,
 				698F070F1CDC8C6700B4D983 /* CALayerDemo02.m in Sources */,
@@ -2523,6 +2550,7 @@
 				694E3D351CC4797300E60F7D /* CardsRootViewController.m in Sources */,
 				6946B5C01D08044C0039F15E /* MJRefreshFooter.m in Sources */,
 				6946B5C21D08044C0039F15E /* MJRefreshAutoGifFooter.m in Sources */,
+				6957C6961D21335300C415AA /* MediaPlayerMaskView.m in Sources */,
 				6946B5291D07C43D0039F15E /* MusicDownloadListTableCell.m in Sources */,
 				6946B5441D07E1B10039F15E /* DRCellSlideAction.m in Sources */,
 				698F06EA1CDC836700B4D983 /* ColorUIImageView.m in Sources */,
