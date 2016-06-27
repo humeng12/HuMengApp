@@ -185,6 +185,7 @@
 		694E3D2F1CC4794E00E60F7D /* MemberRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D2E1CC4794E00E60F7D /* MemberRootViewController.m */; };
 		694E3D321CC4796200E60F7D /* CouponRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D311CC4796200E60F7D /* CouponRootViewController.m */; };
 		694E3D351CC4797300E60F7D /* CardsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D341CC4797300E60F7D /* CardsRootViewController.m */; };
+		6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6481D210BF300C415AA /* NSString+MD5String.m */; };
 		697BE5441D06578700D35B3E /* GGMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5421D06578700D35B3E /* GGMovieCell.m */; };
 		697BE5451D06578700D35B3E /* GGMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697BE5431D06578700D35B3E /* GGMovieCell.xib */; };
 		697BE5481D0657F100D35B3E /* GGMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5471D0657F100D35B3E /* GGMovieModel.m */; };
@@ -645,6 +646,8 @@
 		694E3D311CC4796200E60F7D /* CouponRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponRootViewController.m; sourceTree = "<group>"; };
 		694E3D331CC4797300E60F7D /* CardsRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsRootViewController.h; sourceTree = "<group>"; };
 		694E3D341CC4797300E60F7D /* CardsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsRootViewController.m; sourceTree = "<group>"; };
+		6957C6471D210BF300C415AA /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
+		6957C6481D210BF300C415AA /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
 		697BE5411D06578700D35B3E /* GGMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMovieCell.h; sourceTree = "<group>"; };
 		697BE5421D06578700D35B3E /* GGMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMovieCell.m; sourceTree = "<group>"; };
 		697BE5431D06578700D35B3E /* GGMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGMovieCell.xib; sourceTree = "<group>"; };
@@ -962,6 +965,7 @@
 		6907195D1CDB160D00978AF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6946B5471D07E6520039F15E /* MediaPlayer.framework */,
 				6907195E1CDB161E00978AF9 /* CoreImage.framework */,
 			);
 			path = Frameworks;
@@ -1394,7 +1398,6 @@
 		694E3C611CC4707A00E60F7D = {
 			isa = PBXGroup;
 			children = (
-				6946B5471D07E6520039F15E /* MediaPlayer.framework */,
 				694E3C6C1CC4707A00E60F7D /* HMMerchant */,
 				694E3C861CC4707B00E60F7D /* HMMerchantTests */,
 				694E3C911CC4707B00E60F7D /* HMMerchantUITests */,
@@ -1538,6 +1541,8 @@
 				69B55B5E1CC48992007DDEF0 /* FrameAutoScaleLFL.m */,
 				697BE5AC1D066BAF00D35B3E /* UIButton+Button.h */,
 				697BE5AD1D066BAF00D35B3E /* UIButton+Button.m */,
+				6957C6471D210BF300C415AA /* NSString+MD5String.h */,
+				6957C6481D210BF300C415AA /* NSString+MD5String.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -2459,6 +2464,7 @@
 				698F069A1CDC424300B4D983 /* POPSpringAnimation.mm in Sources */,
 				698F068C1CDC424300B4D983 /* POPAnimation.mm in Sources */,
 				6946B5BE1D08044C0039F15E /* MJRefreshBackFooter.m in Sources */,
+				6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */,
 				697BE5AE1D066BAF00D35B3E /* UIButton+Button.m in Sources */,
 				698F06AD1CDC684000B4D983 /* easing.c in Sources */,
 				6946B5CF1D08044C0039F15E /* UIView+MJExtension.m in Sources */,
