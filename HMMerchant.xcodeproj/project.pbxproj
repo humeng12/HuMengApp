@@ -186,6 +186,7 @@
 		694E3D321CC4796200E60F7D /* CouponRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D311CC4796200E60F7D /* CouponRootViewController.m */; };
 		694E3D351CC4797300E60F7D /* CardsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D341CC4797300E60F7D /* CardsRootViewController.m */; };
 		6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6481D210BF300C415AA /* NSString+MD5String.m */; };
+		6957C64C1D2111E600C415AA /* XHNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C64B1D2111E600C415AA /* XHNetworkCache.m */; };
 		697BE5441D06578700D35B3E /* GGMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5421D06578700D35B3E /* GGMovieCell.m */; };
 		697BE5451D06578700D35B3E /* GGMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697BE5431D06578700D35B3E /* GGMovieCell.xib */; };
 		697BE5481D0657F100D35B3E /* GGMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5471D0657F100D35B3E /* GGMovieModel.m */; };
@@ -648,6 +649,8 @@
 		694E3D341CC4797300E60F7D /* CardsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsRootViewController.m; sourceTree = "<group>"; };
 		6957C6471D210BF300C415AA /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
 		6957C6481D210BF300C415AA /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
+		6957C64A1D2111E600C415AA /* XHNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetworkCache.h; sourceTree = "<group>"; };
+		6957C64B1D2111E600C415AA /* XHNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetworkCache.m; sourceTree = "<group>"; };
 		697BE5411D06578700D35B3E /* GGMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGMovieCell.h; sourceTree = "<group>"; };
 		697BE5421D06578700D35B3E /* GGMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGMovieCell.m; sourceTree = "<group>"; };
 		697BE5431D06578700D35B3E /* GGMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGMovieCell.xib; sourceTree = "<group>"; };
@@ -1543,6 +1546,8 @@
 				697BE5AD1D066BAF00D35B3E /* UIButton+Button.m */,
 				6957C6471D210BF300C415AA /* NSString+MD5String.h */,
 				6957C6481D210BF300C415AA /* NSString+MD5String.m */,
+				6957C64A1D2111E600C415AA /* XHNetworkCache.h */,
+				6957C64B1D2111E600C415AA /* XHNetworkCache.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -2550,6 +2555,7 @@
 				6946B5BD1D08044C0039F15E /* MJRefreshAutoFooter.m in Sources */,
 				6946B5391D07C55B0039F15E /* TYMProgressBarView.m in Sources */,
 				698F06B71CDC6AA600B4D983 /* HuanDongViewController01.m in Sources */,
+				6957C64C1D2111E600C415AA /* XHNetworkCache.m in Sources */,
 				697BE5711D06584400D35B3E /* SDImageCache.m in Sources */,
 				694E3CBC1CC471E900E60F7D /* AFURLResponseSerialization.m in Sources */,
 				698F069B1CDC424300B4D983 /* POPVector.mm in Sources */,
