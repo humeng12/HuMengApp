@@ -58,6 +58,8 @@
 
 #import "ShangJiaViewController.h"
 
+#import "CheShiViewController.h"
+
 @interface CardsRootViewController ()
 {
      UIImageView *headView;
@@ -145,7 +147,9 @@
                break;
           case 101:
           {
-
+               CheShiViewController *merchant = [[CheShiViewController alloc] init];
+               merchant.hidesBottomBarWhenPushed = YES;
+               [self.navigationController pushViewController:merchant animated:YES];
           }
                break;
           case 102:

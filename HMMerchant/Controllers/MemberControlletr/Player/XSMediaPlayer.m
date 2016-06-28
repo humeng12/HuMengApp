@@ -474,8 +474,6 @@ typedef NS_ENUM(NSInteger, ZFPlayerState) {
 
 
 
-
-
 - (NSTimeInterval)availableDuration {
      NSArray *loadedTimeRanges = [[_player currentItem] loadedTimeRanges];
      CMTimeRange timeRange     = [loadedTimeRanges.firstObject CMTimeRangeValue];// 获取缓冲区域
@@ -503,8 +501,6 @@ typedef NS_ENUM(NSInteger, ZFPlayerState) {
      [self.playerItme removeObserver:self forKeyPath:@"loadedTimeRanges"];
      [self.playerItme removeObserver:self forKeyPath:@"playbackBufferEmpty"];
      [self.playerItme removeObserver:self forKeyPath:@"playbackLikelyToKeepUp"];
-
-     NSLog(@"%s",__func__);
 
 }
 

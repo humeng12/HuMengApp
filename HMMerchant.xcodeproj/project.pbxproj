@@ -340,6 +340,7 @@
 		69B55B5C1CC488E3007DDEF0 /* UIView+UIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B5B1CC488E3007DDEF0 /* UIView+UIViewCategory.m */; };
 		69B55B5F1CC48992007DDEF0 /* FrameAutoScaleLFL.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B5E1CC48992007DDEF0 /* FrameAutoScaleLFL.m */; };
 		69B55B611CC48F9A007DDEF0 /* chuzhikaMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B55B601CC48F9A007DDEF0 /* chuzhikaMain.png */; };
+		69EAADF71D220F0200EA0C61 /* CheShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EAADF61D220F0100EA0C61 /* CheShiViewController.m */; };
 		6B1A1E021CDE1F5F00FEEF75 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A1E011CDE1F5F00FEEF75 /* data.plist */; };
 		6B1A1E051CDE1F9200FEEF75 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A1E041CDE1F9200FEEF75 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
@@ -939,6 +940,8 @@
 		69B55B5D1CC48992007DDEF0 /* FrameAutoScaleLFL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAutoScaleLFL.h; sourceTree = "<group>"; };
 		69B55B5E1CC48992007DDEF0 /* FrameAutoScaleLFL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameAutoScaleLFL.m; sourceTree = "<group>"; };
 		69B55B601CC48F9A007DDEF0 /* chuzhikaMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuzhikaMain.png; sourceTree = "<group>"; };
+		69EAADF51D220F0100EA0C61 /* CheShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheShiViewController.h; sourceTree = "<group>"; };
+		69EAADF61D220F0100EA0C61 /* CheShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheShiViewController.m; sourceTree = "<group>"; };
 		6B1A1E011CDE1F5F00FEEF75 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		6B1A1E031CDE1F9200FEEF75 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		6B1A1E041CDE1F9200FEEF75 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
@@ -1594,6 +1597,7 @@
 				6946B5211D07C2EA0039F15E /* DownAndShow(下载和播放) */,
 				694E3D291CC478F500E60F7D /* VCControlletr */,
 				6946B5891D0802A70039F15E /* shangjia */,
+				69EAADF41D220EE700EA0C61 /* CheShi */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -2153,6 +2157,15 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		69EAADF41D220EE700EA0C61 /* CheShi */ = {
+			isa = PBXGroup;
+			children = (
+				69EAADF51D220F0100EA0C61 /* CheShiViewController.h */,
+				69EAADF61D220F0100EA0C61 /* CheShiViewController.m */,
+			);
+			path = CheShi;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2456,6 +2469,7 @@
 				697BE56D1D06584400D35B3E /* MKAnnotationView+WebCache.m in Sources */,
 				698F06C91CDC76F500B4D983 /* CAEmitterLayerVC02.m in Sources */,
 				6946B5711D07E9D20039F15E /* MASViewAttribute.m in Sources */,
+				69EAADF71D220F0200EA0C61 /* CheShiViewController.m in Sources */,
 				694E3CD81CC4720300E60F7D /* UIImageView+AFNetworking.m in Sources */,
 				698F06ED1CDC841300B4D983 /* CAGradientLayerDemo05.m in Sources */,
 				694E3C751CC4707A00E60F7D /* ViewController.m in Sources */,
