@@ -355,6 +355,7 @@
 		69B328471D260743005625A1 /* icon_menu_reim@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B328381D260743005625A1 /* icon_menu_reim@3x.png */; };
 		69B3284A1D263336005625A1 /* JiePingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B328491D263336005625A1 /* JiePingViewController.m */; };
 		69B3284D1D263387005625A1 /* UIImage+MSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3284C1D263387005625A1 /* UIImage+MSTool.m */; };
+		69B3284F1D263588005625A1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B3284E1D263588005625A1 /* libsqlite3.tbd */; };
 		69B55B561CC48832007DDEF0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B4F1CC48832007DDEF0 /* SVIndefiniteAnimatedView.m */; };
 		69B55B571CC48832007DDEF0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B55B511CC48832007DDEF0 /* SVProgressHUD.bundle */; };
 		69B55B581CC48832007DDEF0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B531CC48832007DDEF0 /* SVProgressHUD.m */; };
@@ -975,6 +976,7 @@
 		69B328491D263336005625A1 /* JiePingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiePingViewController.m; sourceTree = "<group>"; };
 		69B3284B1D263387005625A1 /* UIImage+MSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSTool.h"; sourceTree = "<group>"; };
 		69B3284C1D263387005625A1 /* UIImage+MSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSTool.m"; sourceTree = "<group>"; };
+		69B3284E1D263588005625A1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		69B55B4E1CC48832007DDEF0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		69B55B4F1CC48832007DDEF0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		69B55B501CC48832007DDEF0 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
@@ -1000,6 +1002,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B3284F1D263588005625A1 /* libsqlite3.tbd in Frameworks */,
 				6946B5481D07E6520039F15E /* MediaPlayer.framework in Frameworks */,
 				6907195F1CDB161E00978AF9 /* CoreImage.framework in Frameworks */,
 			);
@@ -1025,6 +1028,7 @@
 		6907195D1CDB160D00978AF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69B3284E1D263588005625A1 /* libsqlite3.tbd */,
 				6946B5471D07E6520039F15E /* MediaPlayer.framework */,
 				6907195E1CDB161E00978AF9 /* CoreImage.framework */,
 			);
