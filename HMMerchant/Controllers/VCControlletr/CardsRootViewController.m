@@ -62,6 +62,9 @@
 
 #import "TLMenuButtonView.h"
 
+
+#import "JiePingViewController.h"
+
 @interface CardsRootViewController ()
 {
      UIImageView *headView;
@@ -134,7 +137,7 @@
 -(void)addButtonAndLabel
 {
 
-     self.LabelTitles=[[NSArray alloc]initWithObjects:@"商家",@"制卡",@"充值",@"发卡",@"锁卡",@"报表",@"惠买单",@"设置", nil];
+     self.LabelTitles=[[NSArray alloc]initWithObjects:@"商家",@"视频",@"截屏",@"发卡",@"锁卡",@"报表",@"惠买单",@"设置", nil];
  self.buttonBacImages=@[@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected"];
 
      int x = screenWidth/8, y = 180*BiLiHaW+20+50, Hpad =0,chaH = 0;
@@ -197,7 +200,8 @@
                break;
           case 102:
           {
-
+               JiePingViewController *ff = [[JiePingViewController alloc] init];
+               [self.navigationController pushViewController:ff animated:YES];
           }
                break;
           case 103:

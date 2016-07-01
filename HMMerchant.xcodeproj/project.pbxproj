@@ -353,6 +353,8 @@
 		69B328451D260743005625A1 /* icon_menu_dayoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B328361D260743005625A1 /* icon_menu_dayoff.png */; };
 		69B328461D260743005625A1 /* icon_menu_general@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B328371D260743005625A1 /* icon_menu_general@2x.png */; };
 		69B328471D260743005625A1 /* icon_menu_reim@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B328381D260743005625A1 /* icon_menu_reim@3x.png */; };
+		69B3284A1D263336005625A1 /* JiePingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B328491D263336005625A1 /* JiePingViewController.m */; };
+		69B3284D1D263387005625A1 /* UIImage+MSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3284C1D263387005625A1 /* UIImage+MSTool.m */; };
 		69B55B561CC48832007DDEF0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B4F1CC48832007DDEF0 /* SVIndefiniteAnimatedView.m */; };
 		69B55B571CC48832007DDEF0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B55B511CC48832007DDEF0 /* SVProgressHUD.bundle */; };
 		69B55B581CC48832007DDEF0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B531CC48832007DDEF0 /* SVProgressHUD.m */; };
@@ -969,6 +971,10 @@
 		69B328361D260743005625A1 /* icon_menu_dayoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_menu_dayoff.png; sourceTree = "<group>"; };
 		69B328371D260743005625A1 /* icon_menu_general@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu_general@2x.png"; sourceTree = "<group>"; };
 		69B328381D260743005625A1 /* icon_menu_reim@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu_reim@3x.png"; sourceTree = "<group>"; };
+		69B328481D263336005625A1 /* JiePingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiePingViewController.h; sourceTree = "<group>"; };
+		69B328491D263336005625A1 /* JiePingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiePingViewController.m; sourceTree = "<group>"; };
+		69B3284B1D263387005625A1 /* UIImage+MSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSTool.h"; sourceTree = "<group>"; };
+		69B3284C1D263387005625A1 /* UIImage+MSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSTool.m"; sourceTree = "<group>"; };
 		69B55B4E1CC48832007DDEF0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		69B55B4F1CC48832007DDEF0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		69B55B501CC48832007DDEF0 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
@@ -1622,6 +1628,8 @@
 				69B3281F1D260618005625A1 /* TLMenuButton.m */,
 				69B328201D260618005625A1 /* TLMenuButtonView.h */,
 				69B328211D260618005625A1 /* TLMenuButtonView.m */,
+				69B3284B1D263387005625A1 /* UIImage+MSTool.h */,
+				69B3284C1D263387005625A1 /* UIImage+MSTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -2226,6 +2234,8 @@
 			children = (
 				69EAADF51D220F0100EA0C61 /* CheShiViewController.h */,
 				69EAADF61D220F0100EA0C61 /* CheShiViewController.m */,
+				69B328481D263336005625A1 /* JiePingViewController.h */,
+				69B328491D263336005625A1 /* JiePingViewController.m */,
 			);
 			path = CheShi;
 			sourceTree = "<group>";
@@ -2524,6 +2534,7 @@
 				694E3CD91CC4720300E60F7D /* UIProgressView+AFNetworking.m in Sources */,
 				694E3CE21CC4736900E60F7D /* BaseViewController.m in Sources */,
 				694E3CE71CC475BC00E60F7D /* UIView+Uitls.m in Sources */,
+				69B3284A1D263336005625A1 /* JiePingViewController.m in Sources */,
 				697BE5C21D0676B500D35B3E /* XLSlider.m in Sources */,
 				694E3CEE1CC4774B00E60F7D /* MyGuideViewController.m in Sources */,
 				697BE57E1D06584400D35B3E /* UIView+WebCacheOperation.m in Sources */,
@@ -2687,6 +2698,7 @@
 				698F069B1CDC424300B4D983 /* POPVector.mm in Sources */,
 				6946B5001D07B4E40039F15E /* MusicListTableCell.m in Sources */,
 				694E3CB81CC471E900E60F7D /* AFHTTPSessionManager.m in Sources */,
+				69B3284D1D263387005625A1 /* UIImage+MSTool.m in Sources */,
 				698F06971CDC424300B4D983 /* POPLayerExtras.mm in Sources */,
 				690719681CDB581800978AF9 /* BlurDownloadPicView.m in Sources */,
 				697BE6051D06BD9100D35B3E /* XSMediaPlayerMaskView.m in Sources */,
