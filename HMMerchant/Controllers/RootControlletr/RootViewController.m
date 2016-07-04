@@ -12,6 +12,7 @@
 #import "GGMovieModel.h"
 #import "GGBaseCell.h"
 #import "GGPlayViewCtl.h"
+#import "HMNetworking.h"
 
 @interface RootViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 @property(nonatomic , strong) UICollectionView *collectionView;
@@ -82,6 +83,13 @@
 
 -(void)httpRequest
 {
+
+
+     NSDictionary* parm = [[NSDictionary alloc] initWithObjectsAndKeys:@"59de3eb2-4e90-4d13-983b-6df6bd6c09e2",@"memberID",@"39.96082330",@"latitude",@"116.32398410",@"longitude", nil];
+
+     [[HMNetworking sharedManager] post1:@"https://www.hybunion.cn/CubeCoreConsole/hotBusiness/queryHotBusiness.do" withParam:parm];
+
+     /*
      [HYBNetworking getWithUrl:@"http://www.quanmin.tv/json/page/appv2-index/info.json?0330152228" refreshCache:NO success:^(id response) {
 
           if (self.dataDic)
@@ -131,7 +139,7 @@
 
      } fail:^(NSError *error) {
 
-     }];
+     }];*/
 }
 
 

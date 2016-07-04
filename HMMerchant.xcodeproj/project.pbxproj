@@ -15,6 +15,8 @@
 		690719741CDB5ACE00978AF9 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907196E1CDB5ACE00978AF9 /* GCDQueue.m */; };
 		690719751CDB5ACE00978AF9 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 690719701CDB5ACE00978AF9 /* GCDSemaphore.m */; };
 		690719761CDB5ACE00978AF9 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690719721CDB5ACE00978AF9 /* GCDTimer.m */; };
+		6942E80C1D2A32EA0097C70E /* HMNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6942E80B1D2A32EA0097C70E /* HMNetworking.m */; };
+		6942E80E1D2A371E0097C70E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6942E80D1D2A371E0097C70E /* Foundation.framework */; };
 		6946B4FB1D07B2B70039F15E /* Discover.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6946B4FA1D07B2B70039F15E /* Discover.plist */; };
 		6946B5001D07B4E40039F15E /* MusicListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B4FF1D07B4E40039F15E /* MusicListTableCell.m */; };
 		6946B50B1D07BC5C0039F15E /* gongfuxiongmao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6946B5031D07BC5C0039F15E /* gongfuxiongmao.png */; };
@@ -401,6 +403,9 @@
 		690719701CDB5ACE00978AF9 /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
 		690719711CDB5ACE00978AF9 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		690719721CDB5ACE00978AF9 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		6942E80A1D2A32EA0097C70E /* HMNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNetworking.h; sourceTree = "<group>"; };
+		6942E80B1D2A32EA0097C70E /* HMNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNetworking.m; sourceTree = "<group>"; };
+		6942E80D1D2A371E0097C70E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6946B4FA1D07B2B70039F15E /* Discover.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Discover.plist; sourceTree = "<group>"; };
 		6946B4FE1D07B4E40039F15E /* MusicListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableCell.h; sourceTree = "<group>"; };
 		6946B4FF1D07B4E40039F15E /* MusicListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableCell.m; sourceTree = "<group>"; };
@@ -1002,6 +1007,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6942E80E1D2A371E0097C70E /* Foundation.framework in Frameworks */,
 				69B3284F1D263588005625A1 /* libsqlite3.tbd in Frameworks */,
 				6946B5481D07E6520039F15E /* MediaPlayer.framework in Frameworks */,
 				6907195F1CDB161E00978AF9 /* CoreImage.framework in Frameworks */,
@@ -1462,6 +1468,7 @@
 		694E3C611CC4707A00E60F7D = {
 			isa = PBXGroup;
 			children = (
+				6942E80D1D2A371E0097C70E /* Foundation.framework */,
 				694E3C6C1CC4707A00E60F7D /* HMMerchant */,
 				694E3C861CC4707B00E60F7D /* HMMerchantTests */,
 				694E3C911CC4707B00E60F7D /* HMMerchantUITests */,
@@ -1539,6 +1546,8 @@
 			children = (
 				694E3CDC1CC4724E00E60F7D /* HYBNetworking.h */,
 				694E3CDD1CC4724E00E60F7D /* HYBNetworking.m */,
+				6942E80A1D2A32EA0097C70E /* HMNetworking.h */,
+				6942E80B1D2A32EA0097C70E /* HMNetworking.m */,
 			);
 			path = Resuest;
 			sourceTree = "<group>";
@@ -2656,6 +2665,7 @@
 				698F069F1CDC4D8200B4D983 /* FaceBookViewController01.m in Sources */,
 				6946B5851D07FE950039F15E /* CATLog.m in Sources */,
 				694E3CD31CC4720300E60F7D /* AFAutoPurgingImageCache.m in Sources */,
+				6942E80C1D2A32EA0097C70E /* HMNetworking.m in Sources */,
 				694E3CBA1CC471E900E60F7D /* AFSecurityPolicy.m in Sources */,
 				694E3CBB1CC471E900E60F7D /* AFURLRequestSerialization.m in Sources */,
 				698F069C1CDC424300B4D983 /* TransformationMatrix.cpp in Sources */,
