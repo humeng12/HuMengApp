@@ -64,6 +64,9 @@
 
 
 #import "JiePingViewController.h"
+#import "ShuXieViewController.h"
+#import "ZheXianViewController.h"
+#import "PaiXuViewController.h"
 
 @interface CardsRootViewController ()
 {
@@ -137,7 +140,7 @@
 -(void)addButtonAndLabel
 {
 
-     self.LabelTitles=[[NSArray alloc]initWithObjects:@"商家",@"视频",@"截屏",@"发卡",@"锁卡",@"报表",@"惠买单",@"设置", nil];
+     self.LabelTitles=[[NSArray alloc]initWithObjects:@"商家",@"视频",@"截屏",@"书写",@"折线图",@"排序",@"惠买单",@"设置", nil];
  self.buttonBacImages=@[@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected",@"tabbar_card_selected"];
 
      int x = screenWidth/8, y = 180*BiLiHaW+20+50, Hpad =0,chaH = 0;
@@ -206,17 +209,20 @@
                break;
           case 103:
           {
-
+               ShuXieViewController *dd = [[ShuXieViewController alloc] init];
+               [self.navigationController pushViewController:dd animated:YES];
           }
                break;
           case 104:
           {
-
+               ZheXianViewController *dd = [[ZheXianViewController alloc] init];
+               [self.navigationController pushViewController:dd animated:YES];
           }
                break;
           case 105:
           {
-
+               PaiXuViewController *dd = [[PaiXuViewController alloc] init];
+               [self.navigationController pushViewController:dd animated:YES];
           }
                break;
           case 106:

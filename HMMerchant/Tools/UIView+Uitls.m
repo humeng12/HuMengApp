@@ -137,6 +137,15 @@
     return self.frame.origin.y + self.frame.size.height;
 }
 
+
+- (void)removeAllSubviews
+{
+     while (self.subviews.count) {
+          UIView *childView = self.subviews.lastObject;
+          [childView removeFromSuperview];
+     }
+}
+
 @end
 
 @implementation UIView(FindFirstResponder)

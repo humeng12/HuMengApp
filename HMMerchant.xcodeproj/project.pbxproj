@@ -357,7 +357,6 @@
 		69B328471D260743005625A1 /* icon_menu_reim@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B328381D260743005625A1 /* icon_menu_reim@3x.png */; };
 		69B3284A1D263336005625A1 /* JiePingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B328491D263336005625A1 /* JiePingViewController.m */; };
 		69B3284D1D263387005625A1 /* UIImage+MSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3284C1D263387005625A1 /* UIImage+MSTool.m */; };
-		69B3284F1D263588005625A1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B3284E1D263588005625A1 /* libsqlite3.tbd */; };
 		69B55B561CC48832007DDEF0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B4F1CC48832007DDEF0 /* SVIndefiniteAnimatedView.m */; };
 		69B55B571CC48832007DDEF0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B55B511CC48832007DDEF0 /* SVProgressHUD.bundle */; };
 		69B55B581CC48832007DDEF0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B531CC48832007DDEF0 /* SVProgressHUD.m */; };
@@ -365,6 +364,22 @@
 		69B55B5C1CC488E3007DDEF0 /* UIView+UIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B5B1CC488E3007DDEF0 /* UIView+UIViewCategory.m */; };
 		69B55B5F1CC48992007DDEF0 /* FrameAutoScaleLFL.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B55B5E1CC48992007DDEF0 /* FrameAutoScaleLFL.m */; };
 		69B55B611CC48F9A007DDEF0 /* chuzhikaMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B55B601CC48F9A007DDEF0 /* chuzhikaMain.png */; };
+		69C0973F1D2F3A1E002D2E85 /* ShuXieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0973E1D2F3A1E002D2E85 /* ShuXieViewController.m */; };
+		69C097441D2F3A6B002D2E85 /* WriteAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097411D2F3A6B002D2E85 /* WriteAnimationLayer.m */; };
+		69C097451D2F3A6B002D2E85 /* WriteFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097431D2F3A6B002D2E85 /* WriteFunction.m */; };
+		69C097481D2F3C9E002D2E85 /* ZheXianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097471D2F3C9E002D2E85 /* ZheXianViewController.m */; };
+		69C0974E1D2F3D21002D2E85 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0974B1D2F3D21002D2E85 /* BarChartView.m */; };
+		69C0974F1D2F3D21002D2E85 /* WHBKBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0974D1D2F3D21002D2E85 /* WHBKBarChartView.m */; };
+		69C097541D2F3F13002D2E85 /* foodsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C097511D2F3F13002D2E85 /* foodsList.plist */; };
+		69C097551D2F3F13002D2E85 /* LZBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097531D2F3F13002D2E85 /* LZBBaseModel.m */; };
+		69C0975D1D2F3F39002D2E85 /* LZBChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097571D2F3F39002D2E85 /* LZBChooseView.m */; };
+		69C0975E1D2F3F39002D2E85 /* LZBFoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097591D2F3F39002D2E85 /* LZBFoodTableViewCell.m */; };
+		69C0975F1D2F3F39002D2E85 /* LZBFoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C0975A1D2F3F39002D2E85 /* LZBFoodTableViewCell.xib */; };
+		69C097601D2F3F39002D2E85 /* LZBMenuListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0975C1D2F3F39002D2E85 /* LZBMenuListView.m */; };
+		69C097641D2F3F65002D2E85 /* MenuListBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C097611D2F3F65002D2E85 /* MenuListBg@2x.png */; };
+		69C097651D2F3F65002D2E85 /* MenuListBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C097621D2F3F65002D2E85 /* MenuListBg@3x.png */; };
+		69C097661D2F3F65002D2E85 /* MenuLIstVIew_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C097631D2F3F65002D2E85 /* MenuLIstVIew_line.png */; };
+		69C097691D2F3F80002D2E85 /* PaiXuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C097681D2F3F80002D2E85 /* PaiXuViewController.m */; };
 		69EAADF71D220F0200EA0C61 /* CheShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EAADF61D220F0100EA0C61 /* CheShiViewController.m */; };
 		6B1A1E021CDE1F5F00FEEF75 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A1E011CDE1F5F00FEEF75 /* data.plist */; };
 		6B1A1E051CDE1F9200FEEF75 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A1E041CDE1F9200FEEF75 /* DemoViewController.m */; };
@@ -995,6 +1010,33 @@
 		69B55B5D1CC48992007DDEF0 /* FrameAutoScaleLFL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAutoScaleLFL.h; sourceTree = "<group>"; };
 		69B55B5E1CC48992007DDEF0 /* FrameAutoScaleLFL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameAutoScaleLFL.m; sourceTree = "<group>"; };
 		69B55B601CC48F9A007DDEF0 /* chuzhikaMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuzhikaMain.png; sourceTree = "<group>"; };
+		69C0973D1D2F3A1E002D2E85 /* ShuXieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShuXieViewController.h; sourceTree = "<group>"; };
+		69C0973E1D2F3A1E002D2E85 /* ShuXieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShuXieViewController.m; sourceTree = "<group>"; };
+		69C097401D2F3A6B002D2E85 /* WriteAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteAnimationLayer.h; sourceTree = "<group>"; };
+		69C097411D2F3A6B002D2E85 /* WriteAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteAnimationLayer.m; sourceTree = "<group>"; };
+		69C097421D2F3A6B002D2E85 /* WriteFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteFunction.h; sourceTree = "<group>"; };
+		69C097431D2F3A6B002D2E85 /* WriteFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteFunction.m; sourceTree = "<group>"; };
+		69C097461D2F3C9E002D2E85 /* ZheXianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZheXianViewController.h; sourceTree = "<group>"; };
+		69C097471D2F3C9E002D2E85 /* ZheXianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZheXianViewController.m; sourceTree = "<group>"; };
+		69C0974A1D2F3D21002D2E85 /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartView.h; sourceTree = "<group>"; };
+		69C0974B1D2F3D21002D2E85 /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartView.m; sourceTree = "<group>"; };
+		69C0974C1D2F3D21002D2E85 /* WHBKBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBKBarChartView.h; sourceTree = "<group>"; };
+		69C0974D1D2F3D21002D2E85 /* WHBKBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBKBarChartView.m; sourceTree = "<group>"; };
+		69C097511D2F3F13002D2E85 /* foodsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodsList.plist; sourceTree = "<group>"; };
+		69C097521D2F3F13002D2E85 /* LZBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBaseModel.h; sourceTree = "<group>"; };
+		69C097531D2F3F13002D2E85 /* LZBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseModel.m; sourceTree = "<group>"; };
+		69C097561D2F3F39002D2E85 /* LZBChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBChooseView.h; sourceTree = "<group>"; };
+		69C097571D2F3F39002D2E85 /* LZBChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBChooseView.m; sourceTree = "<group>"; };
+		69C097581D2F3F39002D2E85 /* LZBFoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBFoodTableViewCell.h; sourceTree = "<group>"; };
+		69C097591D2F3F39002D2E85 /* LZBFoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBFoodTableViewCell.m; sourceTree = "<group>"; };
+		69C0975A1D2F3F39002D2E85 /* LZBFoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZBFoodTableViewCell.xib; sourceTree = "<group>"; };
+		69C0975B1D2F3F39002D2E85 /* LZBMenuListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBMenuListView.h; sourceTree = "<group>"; };
+		69C0975C1D2F3F39002D2E85 /* LZBMenuListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBMenuListView.m; sourceTree = "<group>"; };
+		69C097611D2F3F65002D2E85 /* MenuListBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuListBg@2x.png"; sourceTree = "<group>"; };
+		69C097621D2F3F65002D2E85 /* MenuListBg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuListBg@3x.png"; sourceTree = "<group>"; };
+		69C097631D2F3F65002D2E85 /* MenuLIstVIew_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuLIstVIew_line.png; sourceTree = "<group>"; };
+		69C097671D2F3F80002D2E85 /* PaiXuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaiXuViewController.h; sourceTree = "<group>"; };
+		69C097681D2F3F80002D2E85 /* PaiXuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaiXuViewController.m; sourceTree = "<group>"; };
 		69EAADF51D220F0100EA0C61 /* CheShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheShiViewController.h; sourceTree = "<group>"; };
 		69EAADF61D220F0100EA0C61 /* CheShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheShiViewController.m; sourceTree = "<group>"; };
 		6B1A1E011CDE1F5F00FEEF75 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
@@ -1008,7 +1050,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6942E80E1D2A371E0097C70E /* Foundation.framework in Frameworks */,
-				69B3284F1D263588005625A1 /* libsqlite3.tbd in Frameworks */,
 				6946B5481D07E6520039F15E /* MediaPlayer.framework in Frameworks */,
 				6907195F1CDB161E00978AF9 /* CoreImage.framework in Frameworks */,
 			);
@@ -1038,7 +1079,8 @@
 				6946B5471D07E6520039F15E /* MediaPlayer.framework */,
 				6907195E1CDB161E00978AF9 /* CoreImage.framework */,
 			);
-			path = Frameworks;
+			name = Frameworks;
+			path = HMMerchant/Frameworks;
 			sourceTree = "<group>";
 		};
 		690719621CDB4F1800978AF9 /* UIImage+ImageEffects */ = {
@@ -1470,6 +1512,7 @@
 			children = (
 				6942E80D1D2A371E0097C70E /* Foundation.framework */,
 				694E3C6C1CC4707A00E60F7D /* HMMerchant */,
+				6907195D1CDB160D00978AF9 /* Frameworks */,
 				694E3C861CC4707B00E60F7D /* HMMerchantTests */,
 				694E3C911CC4707B00E60F7D /* HMMerchantUITests */,
 				694E3C6B1CC4707A00E60F7D /* Products */,
@@ -1496,13 +1539,12 @@
 				694E3CA61CC4713B00E60F7D /* Vendor */,
 				694E3CA71CC4716100E60F7D /* Controllers */,
 				694E3CA81CC4717000E60F7D /* Views */,
-				694E3CA91CC4717E00E60F7D /* Models */,
+				69C097501D2F3EFA002D2E85 /* Model */,
 				6957C68C1D21309E00C415AA /* Others */,
 				694E3C701CC4707A00E60F7D /* AppDelegate.h */,
 				694E3C711CC4707A00E60F7D /* AppDelegate.m */,
 				694E3C731CC4707A00E60F7D /* ViewController.h */,
 				694E3C741CC4707A00E60F7D /* ViewController.m */,
-				6907195D1CDB160D00978AF9 /* Frameworks */,
 				694E3C761CC4707A00E60F7D /* Main.storyboard */,
 				694E3C791CC4707A00E60F7D /* Assets.xcassets */,
 				694E3C7B1CC4707A00E60F7D /* LaunchScreen.storyboard */,
@@ -1614,6 +1656,9 @@
 				69B328361D260743005625A1 /* icon_menu_dayoff.png */,
 				69B328371D260743005625A1 /* icon_menu_general@2x.png */,
 				69B328381D260743005625A1 /* icon_menu_reim@3x.png */,
+				69C097611D2F3F65002D2E85 /* MenuListBg@2x.png */,
+				69C097621D2F3F65002D2E85 /* MenuListBg@3x.png */,
+				69C097631D2F3F65002D2E85 /* MenuLIstVIew_line.png */,
 				6946B5D01D0804C80039F15E /* 动画 */,
 				6946B5021D07BC5C0039F15E /* images */,
 				694E3CF31CC477FC00E60F7D /* TabBarImage */,
@@ -1625,6 +1670,7 @@
 		694E3CA51CC4712400E60F7D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				69C097491D2F3D21002D2E85 /* WHBKBarChatView */,
 				694E3CE51CC475BC00E60F7D /* UIView+Uitls.h */,
 				694E3CE61CC475BC00E60F7D /* UIView+Uitls.m */,
 				69B55B5A1CC488E3007DDEF0 /* UIView+UIViewCategory.h */,
@@ -1643,6 +1689,10 @@
 				69B328211D260618005625A1 /* TLMenuButtonView.m */,
 				69B3284B1D263387005625A1 /* UIImage+MSTool.h */,
 				69B3284C1D263387005625A1 /* UIImage+MSTool.m */,
+				69C097401D2F3A6B002D2E85 /* WriteAnimationLayer.h */,
+				69C097411D2F3A6B002D2E85 /* WriteAnimationLayer.m */,
+				69C097421D2F3A6B002D2E85 /* WriteFunction.h */,
+				69C097431D2F3A6B002D2E85 /* WriteFunction.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -1714,15 +1764,15 @@
 				698F07111CDC8CAB00B4D983 /* ProgressView.m */,
 				698F071A1CDC8DA000B4D983 /* FadeImageView.h */,
 				698F071B1CDC8DA000B4D983 /* FadeImageView.m */,
+				69C097561D2F3F39002D2E85 /* LZBChooseView.h */,
+				69C097571D2F3F39002D2E85 /* LZBChooseView.m */,
+				69C097581D2F3F39002D2E85 /* LZBFoodTableViewCell.h */,
+				69C097591D2F3F39002D2E85 /* LZBFoodTableViewCell.m */,
+				69C0975A1D2F3F39002D2E85 /* LZBFoodTableViewCell.xib */,
+				69C0975B1D2F3F39002D2E85 /* LZBMenuListView.h */,
+				69C0975C1D2F3F39002D2E85 /* LZBMenuListView.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		694E3CA91CC4717E00E60F7D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		694E3CAA1CC471E900E60F7D /* AFNetworking */ = {
@@ -2242,6 +2292,27 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		69C097491D2F3D21002D2E85 /* WHBKBarChatView */ = {
+			isa = PBXGroup;
+			children = (
+				69C0974A1D2F3D21002D2E85 /* BarChartView.h */,
+				69C0974B1D2F3D21002D2E85 /* BarChartView.m */,
+				69C0974C1D2F3D21002D2E85 /* WHBKBarChartView.h */,
+				69C0974D1D2F3D21002D2E85 /* WHBKBarChartView.m */,
+			);
+			path = WHBKBarChatView;
+			sourceTree = "<group>";
+		};
+		69C097501D2F3EFA002D2E85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69C097511D2F3F13002D2E85 /* foodsList.plist */,
+				69C097521D2F3F13002D2E85 /* LZBBaseModel.h */,
+				69C097531D2F3F13002D2E85 /* LZBBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		69EAADF41D220EE700EA0C61 /* CheShi */ = {
 			isa = PBXGroup;
 			children = (
@@ -2249,6 +2320,12 @@
 				69EAADF61D220F0100EA0C61 /* CheShiViewController.m */,
 				69B328481D263336005625A1 /* JiePingViewController.h */,
 				69B328491D263336005625A1 /* JiePingViewController.m */,
+				69C0973D1D2F3A1E002D2E85 /* ShuXieViewController.h */,
+				69C0973E1D2F3A1E002D2E85 /* ShuXieViewController.m */,
+				69C097461D2F3C9E002D2E85 /* ZheXianViewController.h */,
+				69C097471D2F3C9E002D2E85 /* ZheXianViewController.m */,
+				69C097671D2F3F80002D2E85 /* PaiXuViewController.h */,
+				69C097681D2F3F80002D2E85 /* PaiXuViewController.m */,
 			);
 			path = CheShi;
 			sourceTree = "<group>";
@@ -2370,6 +2447,7 @@
 				698F06B01CDC684000B4D983 /* ga.js in Resources */,
 				69B328471D260743005625A1 /* icon_menu_reim@3x.png in Resources */,
 				6946B61C1D0804C80039F15E /* icon_refresh_2@2x.png in Resources */,
+				69C097641D2F3F65002D2E85 /* MenuListBg@2x.png in Resources */,
 				698F063E1CDC352900B4D983 /* 1.png in Resources */,
 				694E3D031CC4783100E60F7D /* tabbar_member@2x.png in Resources */,
 				6946B60E1D0804C80039F15E /* icon_hud_4@2x.png in Resources */,
@@ -2380,6 +2458,7 @@
 				698F06481CDC369A00B4D983 /* 1@2x.png in Resources */,
 				6946B6161D0804C80039F15E /* icon_hud_8@2x.png in Resources */,
 				6946B6111D0804C80039F15E /* icon_hud_5@3x.png in Resources */,
+				69C097661D2F3F65002D2E85 /* MenuLIstVIew_line.png in Resources */,
 				6946B61B1D0804C80039F15E /* icon_refresh_1@3x.png in Resources */,
 				698F06401CDC352900B4D983 /* background@2x.png in Resources */,
 				6946B6291D0804C80039F15E /* wanzi@2x.png in Resources */,
@@ -2400,6 +2479,7 @@
 				6946B6021D0804C80039F15E /* icon_error_notification@2x.png in Resources */,
 				6946B6071D0804C80039F15E /* icon_error_unkown@3x.png in Resources */,
 				6946B6151D0804C80039F15E /* icon_hud_7@3x.png in Resources */,
+				69C0975F1D2F3F39002D2E85 /* LZBFoodTableViewCell.xib in Resources */,
 				6946B50B1D07BC5C0039F15E /* gongfuxiongmao.png in Resources */,
 				6946B6051D0804C80039F15E /* icon_error_staff_pick_more@3x.png in Resources */,
 				6946B6271D0804C80039F15E /* icon_refresh_7@3x.png in Resources */,
@@ -2425,6 +2505,7 @@
 				6946B61D1D0804C80039F15E /* icon_refresh_2@3x.png in Resources */,
 				6946B6221D0804C80039F15E /* icon_refresh_5@2x.png in Resources */,
 				69B328421D260743005625A1 /* icon_menu_dayoff@2x.png in Resources */,
+				69C097651D2F3F65002D2E85 /* MenuListBg@3x.png in Resources */,
 				69B3283C1D260743005625A1 /* icon_menu_leave@3x.png in Resources */,
 				694E3D221CC4783E00E60F7D /* guideImage3@2x.png in Resources */,
 				694E3D201CC4783E00E60F7D /* guideImage2@3x.png in Resources */,
@@ -2470,6 +2551,7 @@
 				698F06491CDC369A00B4D983 /* 2@2x.png in Resources */,
 				6946B6131D0804C80039F15E /* icon_hud_6@3x.png in Resources */,
 				6946B6121D0804C80039F15E /* icon_hud_6@2x.png in Resources */,
+				69C097541D2F3F13002D2E85 /* foodsList.plist in Resources */,
 				6946B6011D0804C80039F15E /* icon_error_network@3x.png in Resources */,
 				6946B6001D0804C80039F15E /* icon_error_network@2x.png in Resources */,
 				694E3D1B1CC4783E00E60F7D /* guideImage1.png in Resources */,
@@ -2539,6 +2621,7 @@
 				6946B56F1D07E9D20039F15E /* MASConstraintMaker.m in Sources */,
 				698F07061CDC897200B4D983 /* CAShapeLayerDemo04.m in Sources */,
 				6946B56D1D07E9D20039F15E /* MASCompositeConstraint.m in Sources */,
+				69C097551D2F3F13002D2E85 /* LZBBaseModel.m in Sources */,
 				697BE5B11D066D1E00D35B3E /* GGTransverseNaV.m in Sources */,
 				6946B6771D081FD80039F15E /* HomeMenuCell.m in Sources */,
 				6946B6711D0816A00039F15E /* JZHomeCategoryModel.m in Sources */,
@@ -2548,6 +2631,7 @@
 				694E3CE21CC4736900E60F7D /* BaseViewController.m in Sources */,
 				694E3CE71CC475BC00E60F7D /* UIView+Uitls.m in Sources */,
 				69B3284A1D263336005625A1 /* JiePingViewController.m in Sources */,
+				69C0975D1D2F3F39002D2E85 /* LZBChooseView.m in Sources */,
 				697BE5C21D0676B500D35B3E /* XLSlider.m in Sources */,
 				694E3CEE1CC4774B00E60F7D /* MyGuideViewController.m in Sources */,
 				697BE57E1D06584400D35B3E /* UIView+WebCacheOperation.m in Sources */,
@@ -2563,6 +2647,7 @@
 				694E3CDE1CC4724E00E60F7D /* HYBNetworking.m in Sources */,
 				694E3CBD1CC471E900E60F7D /* AFURLSessionManager.m in Sources */,
 				698F06901CDC424300B4D983 /* POPAnimationTracer.mm in Sources */,
+				69C0974F1D2F3D21002D2E85 /* WHBKBarChartView.m in Sources */,
 				6946B5321D07C4A30039F15E /* DownLoadCompleteDataSource.m in Sources */,
 				6946B6741D0818BF0039F15E /* JZHomeLikeModel.m in Sources */,
 				694E3CDB1CC4720300E60F7D /* UIWebView+AFNetworking.m in Sources */,
@@ -2575,6 +2660,7 @@
 				69B328221D260618005625A1 /* TLMenuButton.m in Sources */,
 				697BE56D1D06584400D35B3E /* MKAnnotationView+WebCache.m in Sources */,
 				698F06C91CDC76F500B4D983 /* CAEmitterLayerVC02.m in Sources */,
+				69C0975E1D2F3F39002D2E85 /* LZBFoodTableViewCell.m in Sources */,
 				6946B5711D07E9D20039F15E /* MASViewAttribute.m in Sources */,
 				69EAADF71D220F0200EA0C61 /* CheShiViewController.m in Sources */,
 				694E3CD81CC4720300E60F7D /* UIImageView+AFNetworking.m in Sources */,
@@ -2597,12 +2683,14 @@
 				6946B5C91D08044C0039F15E /* MJRefreshNormalHeader.m in Sources */,
 				697BE5C01D0676B500D35B3E /* XLVideoItem.m in Sources */,
 				697BE56E1D06584400D35B3E /* NSData+ImageContentType.m in Sources */,
+				69C097451D2F3A6B002D2E85 /* WriteFunction.m in Sources */,
 				697BE5821D0659A800D35B3E /* GGRecomHeaderView.m in Sources */,
 				694E3CB91CC471E900E60F7D /* AFNetworkReachabilityManager.m in Sources */,
 				698F064C1CDC373300B4D983 /* TranformFadeView.m in Sources */,
 				6946B5C81D08044C0039F15E /* MJRefreshGifHeader.m in Sources */,
 				698F07031CDC888200B4D983 /* CAShapeLayerDemo03.m in Sources */,
 				698F06521CDC39C300B4D983 /* FadeString.m in Sources */,
+				69C097691D2F3F80002D2E85 /* PaiXuViewController.m in Sources */,
 				697BE5791D06584400D35B3E /* UIImage+GIF.m in Sources */,
 				69B55B561CC48832007DDEF0 /* SVIndefiniteAnimatedView.m in Sources */,
 				6946B6301D0805330039F15E /* MJChiBaoZiHeader.m in Sources */,
@@ -2612,6 +2700,7 @@
 				697BE5891D065D5B00D35B3E /* GGBaseCell.m in Sources */,
 				69B55B5C1CC488E3007DDEF0 /* UIView+UIViewCategory.m in Sources */,
 				698F06331CDC233100B4D983 /* MaskViewController.m in Sources */,
+				69C0973F1D2F3A1E002D2E85 /* ShuXieViewController.m in Sources */,
 				69B328231D260618005625A1 /* TLMenuButtonView.m in Sources */,
 				698F07291CDC904C00B4D983 /* CALayerDemo05.m in Sources */,
 				694E3D2F1CC4794E00E60F7D /* MemberRootViewController.m in Sources */,
@@ -2619,6 +2708,7 @@
 				698F068C1CDC424300B4D983 /* POPAnimation.mm in Sources */,
 				6946B5BE1D08044C0039F15E /* MJRefreshBackFooter.m in Sources */,
 				6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */,
+				69C097441D2F3A6B002D2E85 /* WriteAnimationLayer.m in Sources */,
 				697BE5AE1D066BAF00D35B3E /* UIButton+Button.m in Sources */,
 				698F06AD1CDC684000B4D983 /* easing.c in Sources */,
 				6946B5CF1D08044C0039F15E /* UIView+MJExtension.m in Sources */,
@@ -2648,6 +2738,7 @@
 				698F06951CDC424300B4D983 /* POPDecayAnimation.mm in Sources */,
 				6946B5CC1D08044C0039F15E /* MJRefreshConst.m in Sources */,
 				69B55B581CC48832007DDEF0 /* SVProgressHUD.m in Sources */,
+				69C0974E1D2F3D21002D2E85 /* BarChartView.m in Sources */,
 				694E3C6F1CC4707A00E60F7D /* main.m in Sources */,
 				6946B66B1D0813A70039F15E /* HotModel.m in Sources */,
 				697BE57B1D06584400D35B3E /* UIImage+WebP.m in Sources */,
@@ -2661,6 +2752,7 @@
 				698F06DE1CDC7CD800B4D983 /* CAShapeLayer+Circle.m in Sources */,
 				697BE5441D06578700D35B3E /* GGMovieCell.m in Sources */,
 				698F06E41CDC80BC00B4D983 /* CAGradientLayerDemo03.m in Sources */,
+				69C097481D2F3C9E002D2E85 /* ZheXianViewController.m in Sources */,
 				697BE5E51D067A0900D35B3E /* NSString+MJExtension.m in Sources */,
 				698F069F1CDC4D8200B4D983 /* FaceBookViewController01.m in Sources */,
 				6946B5851D07FE950039F15E /* CATLog.m in Sources */,
@@ -2692,6 +2784,7 @@
 				6946B57F1D07F2E10039F15E /* XHToast.m in Sources */,
 				698F064F1CDC397800B4D983 /* MaskViewController03.m in Sources */,
 				6946B56B1D07E9D20039F15E /* DTKDropdownMenuView.m in Sources */,
+				69C097601D2F3F39002D2E85 /* LZBMenuListView.m in Sources */,
 				697BE5731D06584400D35B3E /* SDWebImageDecoder.m in Sources */,
 				697BE5481D0657F100D35B3E /* GGMovieModel.m in Sources */,
 				698F06CC1CDC78CC00B4D983 /* CAEmitterLayerView.m in Sources */,

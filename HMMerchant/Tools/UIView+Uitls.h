@@ -50,6 +50,9 @@
 - (CGFloat)top;
 
 - (CGFloat)bottom;
+
+
+- (void)removeAllSubviews;
 @end
 
 @interface UIView(FindFirstResponder)
