@@ -31,7 +31,6 @@
 		6946B51E1D07BFF20039F15E /* MusicPartnerDownloadEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B5181D07BFF20039F15E /* MusicPartnerDownloadEntity.m */; };
 		6946B51F1D07BFF20039F15E /* MusicPartnerDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B51A1D07BFF20039F15E /* MusicPartnerDownloadManager.m */; };
 		6946B5201D07BFF20039F15E /* MusicPartnerDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B51C1D07BFF20039F15E /* MusicPartnerDownloadTask.m */; };
-		6946B5241D07C31A0039F15E /* DownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B5231D07C31A0039F15E /* DownViewController.m */; };
 		6946B5291D07C43D0039F15E /* MusicDownloadListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B5281D07C43D0039F15E /* MusicDownloadListTableCell.m */; };
 		6946B5311D07C4A30039F15E /* MusicDownloadDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B52D1D07C4A30039F15E /* MusicDownloadDataSource.m */; };
 		6946B5321D07C4A30039F15E /* DownLoadCompleteDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946B5301D07C4A30039F15E /* DownLoadCompleteDataSource.m */; };
@@ -183,9 +182,6 @@
 		694E3D211CC4783E00E60F7D /* guideImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 694E3D121CC4783E00E60F7D /* guideImage3.png */; };
 		694E3D221CC4783E00E60F7D /* guideImage3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 694E3D131CC4783E00E60F7D /* guideImage3@2x.png */; };
 		694E3D231CC4783E00E60F7D /* guideImage3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 694E3D141CC4783E00E60F7D /* guideImage3@3x.png */; };
-		694E3D2C1CC4793200E60F7D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D2B1CC4793200E60F7D /* RootViewController.m */; };
-		694E3D2F1CC4794E00E60F7D /* MemberRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D2E1CC4794E00E60F7D /* MemberRootViewController.m */; };
-		694E3D321CC4796200E60F7D /* CouponRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D311CC4796200E60F7D /* CouponRootViewController.m */; };
 		694E3D351CC4797300E60F7D /* CardsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E3D341CC4797300E60F7D /* CardsRootViewController.m */; };
 		6957C6491D210BF300C415AA /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C6481D210BF300C415AA /* NSString+MD5String.m */; };
 		6957C64C1D2111E600C415AA /* XHNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957C64B1D2111E600C415AA /* XHNetworkCache.m */; };
@@ -216,7 +212,6 @@
 		697BE5831D0659A800D35B3E /* GGRecomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697BE5811D0659A800D35B3E /* GGRecomHeaderView.xib */; };
 		697BE5861D065A0300D35B3E /* GGRecomHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5851D065A0300D35B3E /* GGRecomHeaderModel.m */; };
 		697BE5891D065D5B00D35B3E /* GGBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5881D065D5B00D35B3E /* GGBaseCell.m */; };
-		697BE5A51D0668B600D35B3E /* GGPlayViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5A41D0668B600D35B3E /* GGPlayViewCtl.m */; };
 		697BE5A81D066A1600D35B3E /* GGPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5A71D066A1600D35B3E /* GGPlayView.m */; };
 		697BE5AB1D066B1A00D35B3E /* GGVerticalNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5AA1D066B1A00D35B3E /* GGVerticalNav.m */; };
 		697BE5AE1D066BAF00D35B3E /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5AD1D066BAF00D35B3E /* UIButton+Button.m */; };
@@ -237,7 +232,6 @@
 		697BE5E31D067A0900D35B3E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5D71D067A0900D35B3E /* NSObject+MJKeyValue.m */; };
 		697BE5E41D067A0900D35B3E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5D91D067A0900D35B3E /* NSObject+MJProperty.m */; };
 		697BE5E51D067A0900D35B3E /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5DB1D067A0900D35B3E /* NSString+MJExtension.m */; };
-		697BE5E81D067B0E00D35B3E /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5E71D067B0E00D35B3E /* VideoDetailViewController.m */; };
 		697BE5FF1D06AACD00D35B3E /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE5FE1D06AACD00D35B3E /* PlayerView.m */; };
 		697BE6021D06AC2500D35B3E /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE6011D06AC2500D35B3E /* PlayerViewController.m */; };
 		697BE6051D06BD9100D35B3E /* XSMediaPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BE6041D06BD9100D35B3E /* XSMediaPlayerMaskView.m */; };
@@ -383,6 +377,12 @@
 		69EAADF71D220F0200EA0C61 /* CheShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EAADF61D220F0100EA0C61 /* CheShiViewController.m */; };
 		6B1A1E021CDE1F5F00FEEF75 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1A1E011CDE1F5F00FEEF75 /* data.plist */; };
 		6B1A1E051CDE1F9200FEEF75 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A1E041CDE1F9200FEEF75 /* DemoViewController.m */; };
+		6B83A69C1DE9A37A0009FCC6 /* DownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A69B1DE9A37A0009FCC6 /* DownViewController.m */; };
+		6B83A6A01DE9A3A20009FCC6 /* CouponRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A69F1DE9A3A20009FCC6 /* CouponRootViewController.m */; };
+		6B83A6A61DE9A3C40009FCC6 /* MemberRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A6A31DE9A3C40009FCC6 /* MemberRootViewController.m */; };
+		6B83A6A71DE9A3C40009FCC6 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A6A51DE9A3C40009FCC6 /* VideoDetailViewController.m */; };
+		6B83A6AD1DE9A54D0009FCC6 /* GGPlayViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A6AA1DE9A54D0009FCC6 /* GGPlayViewCtl.m */; };
+		6B83A6AE1DE9A54D0009FCC6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B83A6AC1DE9A54D0009FCC6 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -441,8 +441,6 @@
 		6946B51A1D07BFF20039F15E /* MusicPartnerDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPartnerDownloadManager.m; sourceTree = "<group>"; };
 		6946B51B1D07BFF20039F15E /* MusicPartnerDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPartnerDownloadTask.h; sourceTree = "<group>"; };
 		6946B51C1D07BFF20039F15E /* MusicPartnerDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPartnerDownloadTask.m; sourceTree = "<group>"; };
-		6946B5221D07C31A0039F15E /* DownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownViewController.h; sourceTree = "<group>"; };
-		6946B5231D07C31A0039F15E /* DownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownViewController.m; sourceTree = "<group>"; };
 		6946B5271D07C43D0039F15E /* MusicDownloadListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDownloadListTableCell.h; sourceTree = "<group>"; };
 		6946B5281D07C43D0039F15E /* MusicDownloadListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDownloadListTableCell.m; sourceTree = "<group>"; };
 		6946B52C1D07C4A30039F15E /* MusicDownloadDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDownloadDataSource.h; sourceTree = "<group>"; };
@@ -685,12 +683,6 @@
 		694E3D121CC4783E00E60F7D /* guideImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guideImage3.png; sourceTree = "<group>"; };
 		694E3D131CC4783E00E60F7D /* guideImage3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage3@2x.png"; sourceTree = "<group>"; };
 		694E3D141CC4783E00E60F7D /* guideImage3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage3@3x.png"; sourceTree = "<group>"; };
-		694E3D2A1CC4793200E60F7D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		694E3D2B1CC4793200E60F7D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		694E3D2D1CC4794E00E60F7D /* MemberRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberRootViewController.h; sourceTree = "<group>"; };
-		694E3D2E1CC4794E00E60F7D /* MemberRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRootViewController.m; sourceTree = "<group>"; };
-		694E3D301CC4796200E60F7D /* CouponRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponRootViewController.h; sourceTree = "<group>"; };
-		694E3D311CC4796200E60F7D /* CouponRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponRootViewController.m; sourceTree = "<group>"; };
 		694E3D331CC4797300E60F7D /* CardsRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsRootViewController.h; sourceTree = "<group>"; };
 		694E3D341CC4797300E60F7D /* CardsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsRootViewController.m; sourceTree = "<group>"; };
 		6957C6471D210BF300C415AA /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
@@ -748,8 +740,6 @@
 		697BE5851D065A0300D35B3E /* GGRecomHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRecomHeaderModel.m; sourceTree = "<group>"; };
 		697BE5871D065D5B00D35B3E /* GGBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBaseCell.h; sourceTree = "<group>"; };
 		697BE5881D065D5B00D35B3E /* GGBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBaseCell.m; sourceTree = "<group>"; };
-		697BE5A31D0668B600D35B3E /* GGPlayViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlayViewCtl.h; sourceTree = "<group>"; };
-		697BE5A41D0668B600D35B3E /* GGPlayViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayViewCtl.m; sourceTree = "<group>"; };
 		697BE5A61D066A1600D35B3E /* GGPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlayView.h; sourceTree = "<group>"; };
 		697BE5A71D066A1600D35B3E /* GGPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayView.m; sourceTree = "<group>"; };
 		697BE5A91D066B0B00D35B3E /* GGVerticalNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGVerticalNav.h; sourceTree = "<group>"; };
@@ -789,8 +779,6 @@
 		697BE5D91D067A0900D35B3E /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		697BE5DA1D067A0900D35B3E /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		697BE5DB1D067A0900D35B3E /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		697BE5E61D067B0E00D35B3E /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
-		697BE5E71D067B0E00D35B3E /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
 		697BE5FD1D06AACD00D35B3E /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
 		697BE5FE1D06AACD00D35B3E /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 		697BE6001D06AC2500D35B3E /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
@@ -1042,6 +1030,18 @@
 		6B1A1E011CDE1F5F00FEEF75 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		6B1A1E031CDE1F9200FEEF75 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		6B1A1E041CDE1F9200FEEF75 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		6B83A69A1DE9A37A0009FCC6 /* DownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownViewController.h; sourceTree = "<group>"; };
+		6B83A69B1DE9A37A0009FCC6 /* DownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownViewController.m; sourceTree = "<group>"; };
+		6B83A69E1DE9A3A20009FCC6 /* CouponRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponRootViewController.h; sourceTree = "<group>"; };
+		6B83A69F1DE9A3A20009FCC6 /* CouponRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponRootViewController.m; sourceTree = "<group>"; };
+		6B83A6A21DE9A3C40009FCC6 /* MemberRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberRootViewController.h; sourceTree = "<group>"; };
+		6B83A6A31DE9A3C40009FCC6 /* MemberRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRootViewController.m; sourceTree = "<group>"; };
+		6B83A6A41DE9A3C40009FCC6 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		6B83A6A51DE9A3C40009FCC6 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		6B83A6A91DE9A54D0009FCC6 /* GGPlayViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlayViewCtl.h; sourceTree = "<group>"; };
+		6B83A6AA1DE9A54D0009FCC6 /* GGPlayViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayViewCtl.m; sourceTree = "<group>"; };
+		6B83A6AB1DE9A54D0009FCC6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6B83A6AC1DE9A54D0009FCC6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1166,8 +1166,7 @@
 		6946B5211D07C2EA0039F15E /* DownAndShow(下载和播放) */ = {
 			isa = PBXGroup;
 			children = (
-				6946B5221D07C31A0039F15E /* DownViewController.h */,
-				6946B5231D07C31A0039F15E /* DownViewController.m */,
+				6B83A6991DE9A37A0009FCC6 /* Controller */,
 				6946B5261D07C42A0039F15E /* View */,
 				6946B5251D07C4210039F15E /* Model */,
 			);
@@ -1886,12 +1885,9 @@
 		694E3D251CC4789600E60F7D /* RootControlletr(推荐) */ = {
 			isa = PBXGroup;
 			children = (
+				6B83A6A81DE9A54D0009FCC6 /* Controller */,
 				697BE5401D06561200D35B3E /* View */,
 				697BE53F1D06560C00D35B3E /* Model */,
-				694E3D2A1CC4793200E60F7D /* RootViewController.h */,
-				694E3D2B1CC4793200E60F7D /* RootViewController.m */,
-				697BE5A31D0668B600D35B3E /* GGPlayViewCtl.h */,
-				697BE5A41D0668B600D35B3E /* GGPlayViewCtl.m */,
 			);
 			name = "RootControlletr(推荐)";
 			path = RootControlletr;
@@ -1900,10 +1896,7 @@
 		694E3D261CC478B900E60F7D /* MemberControlletr(直播) */ = {
 			isa = PBXGroup;
 			children = (
-				694E3D2D1CC4794E00E60F7D /* MemberRootViewController.h */,
-				694E3D2E1CC4794E00E60F7D /* MemberRootViewController.m */,
-				697BE5E61D067B0E00D35B3E /* VideoDetailViewController.h */,
-				697BE5E71D067B0E00D35B3E /* VideoDetailViewController.m */,
+				6B83A6A11DE9A3C40009FCC6 /* Controller */,
 				697BE5FC1D06AAAA00D35B3E /* Player */,
 				697BE5B21D0676B500D35B3E /* Model */,
 				697BE5B51D0676B500D35B3E /* VideoPlayer */,
@@ -1916,8 +1909,7 @@
 		694E3D281CC478E000E60F7D /* YHQControlletr(视频) */ = {
 			isa = PBXGroup;
 			children = (
-				694E3D301CC4796200E60F7D /* CouponRootViewController.h */,
-				694E3D311CC4796200E60F7D /* CouponRootViewController.m */,
+				6B83A69D1DE9A3A20009FCC6 /* Controller */,
 				6946B4FD1D07B4BA0039F15E /* View */,
 				6946B4FC1D07B4AC0039F15E /* Model */,
 			);
@@ -2330,6 +2322,46 @@
 			path = CheShi;
 			sourceTree = "<group>";
 		};
+		6B83A6991DE9A37A0009FCC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B83A69A1DE9A37A0009FCC6 /* DownViewController.h */,
+				6B83A69B1DE9A37A0009FCC6 /* DownViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B83A69D1DE9A3A20009FCC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B83A69E1DE9A3A20009FCC6 /* CouponRootViewController.h */,
+				6B83A69F1DE9A3A20009FCC6 /* CouponRootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B83A6A11DE9A3C40009FCC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B83A6A21DE9A3C40009FCC6 /* MemberRootViewController.h */,
+				6B83A6A31DE9A3C40009FCC6 /* MemberRootViewController.m */,
+				6B83A6A41DE9A3C40009FCC6 /* VideoDetailViewController.h */,
+				6B83A6A51DE9A3C40009FCC6 /* VideoDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6B83A6A81DE9A54D0009FCC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B83A6A91DE9A54D0009FCC6 /* GGPlayViewCtl.h */,
+				6B83A6AA1DE9A54D0009FCC6 /* GGPlayViewCtl.m */,
+				6B83A6AB1DE9A54D0009FCC6 /* RootViewController.h */,
+				6B83A6AC1DE9A54D0009FCC6 /* RootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2397,6 +2429,7 @@
 				TargetAttributes = {
 					694E3C691CC4707A00E60F7D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75AXUYD58X;
 					};
 					694E3C821CC4707B00E60F7D = {
 						CreatedOnToolsVersion = 7.3;
@@ -2610,6 +2643,7 @@
 				697BE57D1D06584400D35B3E /* UIImageView+WebCache.m in Sources */,
 				698F06FD1CDC867C00B4D983 /* CAShapeLayerDemo01.m in Sources */,
 				6957C6991D2133EC00C415AA /* MediaPlayer.m in Sources */,
+				6B83A69C1DE9A37A0009FCC6 /* DownViewController.m in Sources */,
 				6946B5C61D08044C0039F15E /* MJRefreshBackNormalFooter.m in Sources */,
 				697BE5771D06584400D35B3E /* SDWebImagePrefetcher.m in Sources */,
 				698F070F1CDC8C6700B4D983 /* CALayerDemo02.m in Sources */,
@@ -2653,6 +2687,7 @@
 				694E3CDB1CC4720300E60F7D /* UIWebView+AFNetworking.m in Sources */,
 				697BE5DF1D067A0900D35B3E /* MJPropertyKey.m in Sources */,
 				697BE5C41D0676B500D35B3E /* XLVideoCell.m in Sources */,
+				6B83A6AE1DE9A54D0009FCC6 /* RootViewController.m in Sources */,
 				6946B53C1D07E1550039F15E /* MineTableCell.m in Sources */,
 				698F070C1CDC8B7400B4D983 /* CALayerDemo01.m in Sources */,
 				697BE5DD1D067A0900D35B3E /* MJFoundation.m in Sources */,
@@ -2679,6 +2714,7 @@
 				698F06A21CDC621700B4D983 /* FaceBookViewController02.m in Sources */,
 				697BE6161D06BF6A00D35B3E /* XSMediaPlayer.m in Sources */,
 				698F06921CDC424300B4D983 /* POPBasicAnimation.mm in Sources */,
+				6B83A6A01DE9A3A20009FCC6 /* CouponRootViewController.m in Sources */,
 				6946B62F1D0805330039F15E /* JZNuomiHeader.m in Sources */,
 				6946B5C91D08044C0039F15E /* MJRefreshNormalHeader.m in Sources */,
 				697BE5C01D0676B500D35B3E /* XLVideoItem.m in Sources */,
@@ -2697,13 +2733,13 @@
 				6946B51D1D07BFF20039F15E /* MPSessionModel.m in Sources */,
 				6946B66E1D0815E30039F15E /* JZHomespecialModel.m in Sources */,
 				697BE5E31D067A0900D35B3E /* NSObject+MJKeyValue.m in Sources */,
+				6B83A6A71DE9A3C40009FCC6 /* VideoDetailViewController.m in Sources */,
 				697BE5891D065D5B00D35B3E /* GGBaseCell.m in Sources */,
 				69B55B5C1CC488E3007DDEF0 /* UIView+UIViewCategory.m in Sources */,
 				698F06331CDC233100B4D983 /* MaskViewController.m in Sources */,
 				69C0973F1D2F3A1E002D2E85 /* ShuXieViewController.m in Sources */,
 				69B328231D260618005625A1 /* TLMenuButtonView.m in Sources */,
 				698F07291CDC904C00B4D983 /* CALayerDemo05.m in Sources */,
-				694E3D2F1CC4794E00E60F7D /* MemberRootViewController.m in Sources */,
 				698F069A1CDC424300B4D983 /* POPSpringAnimation.mm in Sources */,
 				698F068C1CDC424300B4D983 /* POPAnimation.mm in Sources */,
 				6946B5BE1D08044C0039F15E /* MJRefreshBackFooter.m in Sources */,
@@ -2719,7 +2755,6 @@
 				697BE5741D06584400D35B3E /* SDWebImageDownloader.m in Sources */,
 				697BE5761D06584400D35B3E /* SDWebImageManager.m in Sources */,
 				698F06E11CDC7E6100B4D983 /* CAGradientLayerDemo02.m in Sources */,
-				697BE5A51D0668B600D35B3E /* GGPlayViewCtl.m in Sources */,
 				6946B5451D07E1B10039F15E /* DRCellSlideActionView.m in Sources */,
 				698F072C1CDC90EF00B4D983 /* CALayerDemo06.m in Sources */,
 				690719651CDB4F1800978AF9 /* UIImage+ImageEffects.m in Sources */,
@@ -2728,13 +2763,11 @@
 				6946B5731D07E9D20039F15E /* NSArray+MASAdditions.m in Sources */,
 				6946B5BF1D08044C0039F15E /* MJRefreshComponent.m in Sources */,
 				694E3CED1CC4774B00E60F7D /* CALayer+Transition.m in Sources */,
-				694E3D2C1CC4793200E60F7D /* RootViewController.m in Sources */,
 				6946B5861D07FE950039F15E /* CATLogTransfer.m in Sources */,
 				698F071F1CDC8F4400B4D983 /* CALayerDemo04.m in Sources */,
 				698F06981CDC424300B4D983 /* POPMath.mm in Sources */,
 				698F06CF1CDC78FD00B4D983 /* RainView.m in Sources */,
 				698F07191CDC8D4900B4D983 /* CALayerDemo03.m in Sources */,
-				6946B5241D07C31A0039F15E /* DownViewController.m in Sources */,
 				698F06951CDC424300B4D983 /* POPDecayAnimation.mm in Sources */,
 				6946B5CC1D08044C0039F15E /* MJRefreshConst.m in Sources */,
 				69B55B581CC48832007DDEF0 /* SVProgressHUD.m in Sources */,
@@ -2759,6 +2792,7 @@
 				694E3CD31CC4720300E60F7D /* AFAutoPurgingImageCache.m in Sources */,
 				6942E80C1D2A32EA0097C70E /* HMNetworking.m in Sources */,
 				694E3CBA1CC471E900E60F7D /* AFSecurityPolicy.m in Sources */,
+				6B83A6AD1DE9A54D0009FCC6 /* GGPlayViewCtl.m in Sources */,
 				694E3CBB1CC471E900E60F7D /* AFURLRequestSerialization.m in Sources */,
 				698F069C1CDC424300B4D983 /* TransformationMatrix.cpp in Sources */,
 				6946B5311D07C4A30039F15E /* MusicDownloadDataSource.m in Sources */,
@@ -2792,7 +2826,6 @@
 				6946B5201D07BFF20039F15E /* MusicPartnerDownloadTask.m in Sources */,
 				6B1A1E051CDE1F9200FEEF75 /* DemoViewController.m in Sources */,
 				694E3CF11CC4775500E60F7D /* CusTomTabBarViewCtr.m in Sources */,
-				694E3D321CC4796200E60F7D /* CouponRootViewController.m in Sources */,
 				698F06BD1CDC70AE00B4D983 /* HuanDongViewController03.m in Sources */,
 				698F06D61CDC798D00B4D983 /* SnowView.m in Sources */,
 				6946B5741D07E9D20039F15E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -2811,6 +2844,7 @@
 				697BE6051D06BD9100D35B3E /* XSMediaPlayerMaskView.m in Sources */,
 				6946B5761D07E9D20039F15E /* ViewController+MASAdditions.m in Sources */,
 				697BE5721D06584400D35B3E /* SDWebImageCompat.m in Sources */,
+				6B83A6A61DE9A3C40009FCC6 /* MemberRootViewController.m in Sources */,
 				698F06431CDC360500B4D983 /* MaskViewController02.m in Sources */,
 				698F071C1CDC8DA000B4D983 /* FadeImageView.m in Sources */,
 				698F06B41CDC68D100B4D983 /* HuanDongViewController.m in Sources */,
@@ -2824,7 +2858,6 @@
 				698F06931CDC424300B4D983 /* POPCGUtils.mm in Sources */,
 				697BE5781D06584400D35B3E /* UIButton+WebCache.m in Sources */,
 				697BE5AB1D066B1A00D35B3E /* GGVerticalNav.m in Sources */,
-				697BE5E81D067B0E00D35B3E /* VideoDetailViewController.m in Sources */,
 				698F06F31CDC84D500B4D983 /* CAGradientLayerDemo06.m in Sources */,
 				698F06941CDC424300B4D983 /* POPCustomAnimation.mm in Sources */,
 				6946B5C71D08044C0039F15E /* MJRefreshBackStateFooter.m in Sources */,
@@ -2971,6 +3004,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 75AXUYD58X;
 				GCC_PREFIX_HEADER = "HMMerchant/HMMerchant-Prefix.pch";
 				INFOPLIST_FILE = HMMerchant/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -2985,6 +3019,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 75AXUYD58X;
 				GCC_PREFIX_HEADER = "HMMerchant/HMMerchant-Prefix.pch";
 				INFOPLIST_FILE = HMMerchant/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
